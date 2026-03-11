@@ -1,0 +1,14 @@
+Epoch	Train Loss	Learning Rate	Validation Loss
+1	7.72	5.00e-05	5.48
+Validation score improved. Saving model to ./bert2bert-question-answer-generator.
+2	3.54	4.44e-05	4.57
+Validation score improved. Saving model to ./bert2bert-question-answer-generator.
+3	1.68	3.89e-05	4.19
+Validation score improved. Saving model to ./bert2bert-question-answer-generator.
+4	0.97	3.33e-05	4.25
+5	0.52	2.78e-05	4.52
+6	0.48	2.22e-05	4.52
+7	0.39	1.67e-05	4.45
+8	0.32	1.11e-05	4.36
+9	0.26	5.56e-06	4.31
+10	0.27	0.00e+00	4.32

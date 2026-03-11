@@ -1,1 +1,50 @@
-node_modules
+# Laravel standard
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+Homestead.yaml
+Homestead.json
+
+# Laravel IDE helper
+/.idea
+/.vscode
+/.phpunit.result.cache
+.phpunit.cache
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Laravel log and cache
+/storage/*.log
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/framework/testing
+
+# Laravel Mix / npm / yarn
+/public/hot
+/public/css
+/public/js
+/public/mix-manifest.json
+/npm-debug.log
+/yarn-error.log
+/package-lock.json
+/yarn.lock
+
+# Laravel specific subfolder
+Website - Laravel/vendor
+Website - Laravel/node_modules
+Website - Laravel/.env
+Website - Laravel/.phpunit.result.cache
+Website - Laravel/.vscode
+Website - Laravel/.idea
+Website - Laravel/storage/*.log
+Website - Laravel/storage/framework/cache/data
+Website - Laravel/storage/framework/sessions
+Website - Laravel/storage/framework/views
+Website - Laravel/storage/framework/testing
+Website - Laravel/public/hot
+Website - Laravel/public/mix-manifest.json

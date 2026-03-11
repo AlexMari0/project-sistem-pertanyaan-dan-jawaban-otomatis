@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "context": "Teks deskriptif adalah jenis teks yang bertujuan untuk menggambarkan suatu objek, tempat, atau peristiwa secara jelas dan rinci sehingga pembaca dapat membayangkan hal yang dideskripsikan.",
+  "bertscore_results": [
+    {
+      "qa_index": 1,
+      "question": "Apa yang dimiliki pembaca pembaca pemimpin teks deskriptif jenis bertujuan?",
+      "answer": "Teks deskriptif adalah jenis teks yang bertujuan untuk menggambarkan suatu objek, tempat, atau peristiwa secara jelas dan rinci sehingga pembaca dapat membayangkan hal yang dideskripsikan.",
+      "precision": 0.8511648774147034,
+      "recall": 0.959003210067749,
+      "f1_score": 0.901871919631958
+    }
+  ],
+  "average_f1": 0.9019
+}

@@ -1,0 +1,50 @@
+.gradient-card {
+    background: linear-gradient(135deg, #1cb2a2, #3acfd5);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.gradient-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.animate-card {
+    animation: fadeInUp 0.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.btn.custom-btn {
+    background-color: #ffffff;
+    color: #1cb2a2;
+    font-weight: 600;
+    border: 2px solid #1cb2a2;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+.btn.custom-btn:hover {
+    background-color: #1cb2a2;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0px 6px 12px rgba(28, 178, 162, 0.4);
+}
+
+.modal-footer {
+    border-top: none;
+    padding-top: 0;
+}
